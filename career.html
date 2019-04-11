@@ -26,34 +26,21 @@
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
 <body>
-<nav class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#HVNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
-      </button>
+			</button>
+			<a href="index.html" class="navbar-brand hv-white">Dr. Hendranus Vermeulen</a>
     </div>
     <div class="collapse navbar-collapse" id="HVNavbar">
       <ul class="nav navbar-nav">
-         <li><a href="index.html#home" class="colapse-menu1">Overview</a></li>
-	        <li><a href="career.html#home" class="hv-night-blue">Career</a></li>
-	        <li><a href="education.html#home" class="colapse-menu1">Education</a></li>
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="portfolio">Portfolio <span class="caret"></span></a>
-              <ul class="dropdown-menu" aria-labelledby="portfolio">
-                <li><a href="portfolio.html#Gamification">Gamification</a></li>
-                <li><a href="portfolio.html#Educational Games">Educational Games</a></li>
-                <li><a href="portfolio.html#Virtual Learning Environments">Virtual Learning Environments</a></li>
-				<li><a href="portfolio.html#Virtual Reality">Virtual Reality</a></li>
-                <li><a href="portfolio.html#Teaching">Teaching</a></li>
-                <li><a href="portfolio.html#E-learing">E-learing</a></li>
-				<li><a href="portfolio.html#Web Development">Web Development</a></li>
-                <li><a href="portfolio.html#Interactive Wall Projections">Interactive Wall Projections</a></li>
-                <li><a href="portfolio.html#Multi-touch Interactive Displays">Multi-touch Interactive Displays</a></li>
-              </ul>
-            </li>
+	        <li><a href="career.html" class="hv-night-blue">Career</a></li>
+	        <li><a href="education.html" class="colapse-menu1">Education</a></li>
+          <li><a href="portfolio.html" class="colapse-menu1">Portfolio</a></li>
 	        <li><a href="contact.html" class="colapse-menu1">Contact</a></li>
       </ul>
     </div>
@@ -61,19 +48,6 @@
 </nav>
 
 <div id="page-wrapper">
-	
-	<section id="heading-bar">
-		<div class="container">
-			<div class="col-md-12">
-			<!-- Personal Info -->
-				<div class="info">
-					<h1>Dr. Hendranus Vermeulen</h1>
-					<h2>Career</h2>
-				</div>
-			<!-- Personal Info end -->     
-			</div>
-		</div>
-	</section>
 		
 	<!-- Section : Resume -->
 				<section id="resume" class="section">
@@ -84,10 +58,8 @@
 								<div class="timeline">
 									<!-- Item Head -->
 										<div class="timeline-item">
-											<div class="timeline-head">
-												<span class="fa fa-briefcase"><i></i></span>
+											<div class="timeline-item-date">
 											</div>
-											<div class="timeline-arrow-heading"><i></i></div>
 											<div class="timeline-head-content">
 													<h3>Work Experience</h3>
 											</div>
@@ -97,11 +69,6 @@
 									<!-- Timeline item -->
 									<div id="madscientist" class="timeline-item">
 											<div class="timeline-item-date">NOW</div><!-- date -->
-											<!-- timeline item trigger -->
-											<div>
-												<span class="timeline-item-trigger" data-toggle="collapse" data-target="#job-3"><i class="chevron fa fa-fw"></i></span>
-											</div>
-											<!-- /end of timeline item trigger -->
 											<div class="timeline-arrow"><i></i></div>
 											<!-- Timeline main content -->
 											<div class="timeline-item-content">
@@ -111,8 +78,7 @@
 													<p><small class="timeline-organization">SEPTEMBER 2017 – NOW</small></p>
 													<h4 class="timeline-place"><a href="http://www.seaweedheroes.com/">Seaweedheroes</a></h4>
 													<p>
-														Working from a secret location deep beneath the ocean, the sea weed heroes have been slaving in the darkness to bring to you a multiplayer virtual reality tale that will set you free in the Endless Sea, our Psychedelic Underwater-sailing Puzzle-adventure Multiplayer Shooter.
-
+														Working from a secret laboratory deep beneath the ocean, the sea weed heroes are putting the finishing touches on their virtual reality game prototype <em>The Endless Sea</em>.</p>
 														<p><strong>Activities:</strong></p>
 														<ul>
 															<li>Research</li>
@@ -123,19 +89,15 @@
 															<li>Testing</li>
 															<li>Evaluation</li>
 														</ul>
-														<p><strong>Outcomes:</strong></p>
+														<p><strong>Endless Sea game features:</strong></p>
 														<ul>
-															<li>Endless Sea game prototype</li>
-															Featuring:
-															<ul>
-																<li>Virtual Reality</li>
-																<li>Original Locomotion system</li>
-																<li>Multiplayer</li>
-																<li>Convesational Agent using IBM Watson Naural Language Processing</li>
-																<li>Volumetric Lighting</li>
-																<li>Specialised Sound</li>
-																<li>Scriptsble Object AI system enabling flexible implimentation of state machines, sensors, decisions actions and steering behaviors</li>
-															</ul>
+															<li>Virtual Reality</li>
+															<li>New Locomotion system</li>
+															<li>Multiplayer</li>
+															<li>Convesational Agent using IBM Watson Naural Language Processing</li>
+															<li>Volumetric Lighting</li>
+															<li>Specialised Sound</li>
+															<li>ScriptableObject AI system - enabling flexible implimentation of state machines, sensors, decisions, actions and steering behaviors</li>
 														</ul>
 												</div>
 											</div>
@@ -146,11 +108,6 @@
 									<!-- Timeline item -->
 									<div id="seniordev" class="timeline-item">
 										<div class="timeline-item-date">2017-2018</div><!-- date -->
-										<!-- timeline item trigger -->
-										<div>
-											<span class="timeline-item-trigger collapsed" data-toggle="collapse" data-target="#job-2"><i class="chevron fa fa-fw"></i></span>
-										</div>
-										<!-- /end of timeline item trigger -->
 										<div class="timeline-arrow"><i></i></div>
 										<!-- Timeline main content -->
 										<div class="timeline-item-content">
@@ -194,11 +151,6 @@
 									<!-- Timeline item -->
 									<div id="crowdstrategist" class="timeline-item">
 										<div class="timeline-item-date">2017</div><!-- date -->
-										<!-- timeline item trigger -->
-										<div>
-											<span class="timeline-item-trigger collapsed" data-toggle="collapse" data-target="#job-1"><i class="chevron fa fa-fw"></i></span>
-										</div>
-										<!-- /end of timeline item trigger -->
 										<div class="timeline-arrow"><i></i></div>
 										<!-- Timeline main content -->
 										<div class="timeline-item-content">
@@ -237,11 +189,6 @@
 									<!-- Timeline item -->
 									<div id="entrepreneur" class="timeline-item">
 										<div class="timeline-item-date">2016</div><!-- date -->
-                                        	<!-- timeline item trigger -->
-											<div>
-												<span class="timeline-item-trigger collapsed" data-toggle="collapse" data-target="#job0"><i class="chevron fa fa-fw"></i></span>
-											</div>
-                                            <!-- /end of timeline item trigger -->
 											<div class="timeline-arrow"><i></i></div>
 											<!-- Timeline main content -->
 											<div class="timeline-item-content">
@@ -266,16 +213,11 @@
 											</div>
 											<!-- /end of timeline content -->
 									</div>
-                                    <!-- /end item of timeline -->
+                  <!-- /end item of timeline -->
 
 									<!-- Timeline item -->
 									<div id="postdoc" class="timeline-item">
 										<div class="timeline-item-date">2013 – 2016</div><!-- date -->
-                                        	<!-- timeline item trigger -->
-											<div>
-												<span class="timeline-item-trigger collapsed" data-toggle="collapse" data-target="#job1"><i class="chevron fa fa-fw"></i></span>
-											</div>
-                                            <!-- /end of timeline item trigger -->
 											<div class="timeline-arrow"><i></i></div>
 											<!-- Timeline main content -->
 											<div class="timeline-item-content">
@@ -342,11 +284,6 @@
 									<!-- Timeline item -->
 									<div id="consultant" class="timeline-item">
 										<div class="timeline-item-date">2010 - 2013</div><!-- date -->
-											<!-- timeline item trigger -->
-											<div>
-												<span class="timeline-item-trigger collapsed" data-toggle="collapse" data-target="#job2"><i class="chevron fa fa-fw"></i></span>
-											</div>
-											<!-- /end of timeline item trigger -->
 											<div class="timeline-arrow"><i></i></div>
 											<!-- timeline main content -->
 											<div class="timeline-item-content">
@@ -416,9 +353,6 @@
 									<!-- Timeline item -->
 									<div id="multimedia" class="timeline-item">
 										<div class="timeline-item-date">2009 - 2010</div><!-- date -->
-											<div>
-												<span class="timeline-item-trigger collapsed" data-toggle="collapse" data-target="#job3"><i class="chevron fa fa-fw"></i></span>
-											</div>
 											<div class="timeline-arrow"><i></i></div>
 											<!-- Timeline main content -->
 											<div class="timeline-item-content">
@@ -479,9 +413,6 @@
 									<!-- Timeline item -->
 									<div id="flash" class="timeline-item">
 										<div class="timeline-item-date">2008</div><!-- date -->
-											<div>
-												<span class="timeline-item-trigger collapsed" data-toggle="collapse" data-target="#job4"><i class="chevron fa fa-fw"></i></span>
-											</div>
 											<div class="timeline-arrow"><i></i></div>
 											<!-- Timeline main content -->
 											<div class="timeline-item-content">
@@ -508,9 +439,6 @@
                                     <!-- Timeline item -->
 									<div id="elearning" class="timeline-item">
 										<div class="timeline-item-date">2001 – 2003</div><!-- date -->
-											<div>
-												<span class="timeline-item-trigger collapsed" data-toggle="collapse" data-target="#job5"><i class="chevron fa fa-fw"></i></span>
-											</div>
 											<div class="timeline-arrow"><i></i></div>
 											<!-- Timeline main content -->
 											<div class="timeline-item-content">
@@ -556,9 +484,6 @@
                                     <!-- Timeline item -->
 									<div id="webdev" class="timeline-item">
 										<div class="timeline-item-date">1999 - 2000</div><!-- date -->
-											<div>
-												<span class="timeline-item-trigger collapsed" data-toggle="collapse" data-target="#job6"><i class="chevron fa fa-fw"></i></span>
-											</div>
 											<div class="timeline-arrow"><i></i></div>
 											<!-- Timeline main content -->
 											<div class="timeline-item-content">

@@ -1,13 +1,12 @@
 body { 
-    font-family: 'Open Sans',sans-serif,Arial; 
-    font-size: 16px; 
-    color: #CCC;
-    background-color: #010d23;
+  font-family: 'Open Sans',sans-serif,Arial; 
+  font-size: 14px; 
+  color: #CCC;
+  background-color: #03223F;
 	background-repeat: repeat;
 	background-attachment: fixed;
 }
 a { 
-    text-decoration: none;
     outline:none;
 }
 a:hover {text-decoration: none;
@@ -19,27 +18,20 @@ hr{margin: 10px 0;}
 
 h1, h2, h3, h4, h5, h6 {
     font-family:'Montserrat',sans-serif,Arial; padding-bottom: 5px; 
-    color: #FFF; 
+    color: #010D23; 
     line-height: 1em; 
     font-weight: normal;
  }
- 
+ h3,
+.h3 {
+  font-size: 20px;
+}
 .hv-night-blue,.hv-hover-night-blue:hover{color:#E19F41!important;background-color:#010D23!important}
 .hv-nautic-blue,.hv-hover-nautic-blue:hover{color:#FCCB6F!important;background-color:#03223F!important}
 .hv-aqua-blue,.hv-hover-aqua-blue:hover{color:#010D23!important;background-color:#038BBB!important}
 .hv-pro-yellow,.hv-hover-pro-yellow:hover{color:#03223F!important;background-color:#FCCB6F!important}
 .hv-gold,.hv-hover-gold:hover{color:#010D23!important;background-color:#E19F41!important}
- /*Page-wrapper
-**********************************/
-#page-wrapper {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: auto;
-	margin-top: 68px;
-	background: repeat scroll 0 0 rgba(1, 13, 20, 0.8);
-}
+.hv-white,.hv-hover-white:hover{padding-left:50px;padding-top:23px;color:#F5F5F5!important;background-color:#010D23!important}
 
 article{
 	padding-bottom: 25px;
@@ -78,10 +70,10 @@ article{
 	width: 100%;
 }
 
-	.image.fit img {
-		display: block;
-		width: 100%;
-	}
+.image.fit img {
+  display: block;
+  width: 100%;
+}
 
 .image.avatar {
 	overflow: hidden;
@@ -95,8 +87,8 @@ article{
 
 .info{
     text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .inner{
@@ -106,6 +98,17 @@ article{
 	background-color: #010D23;
 	border-bottom: 1px solid #E19F41;
 }
+
+#page-wrapper {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: auto;
+  margin-top: 68px;
+  background: repeat scroll 0 0 rgba(1, 13, 20, 0.8);
+}
+
 .info > h1{
     font-size: 48px;
     color: #F5F5F5;
@@ -138,21 +141,26 @@ article{
   background-color: #010D23;
   font-weight: bold;
 }
+.navbar-brand {
+  padding: 20px;
+}
 .navbar-nav {
     float: none;
     margin: 0;
     text-align: center;
+    background-color: #010D23;
 }
 .navbar-nav > li {
     float: none;
     display: inline-block;
+    background-color: #010D23;
 }
 .navbar-nav > li > a{
     line-height: 27px;
 }
 .navbar-default {
   background-color: #010D23;
-  border-color: #038BBB;
+  border-bottom-color: #038BBB;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
@@ -197,7 +205,11 @@ article{
 }
 
 .navbar-default .navbar-collapse {
-	border-color: #010D23; 
+  border-color: #010D23; 
+}
+
+.container-fluid > .navbar-header {
+  margin-left: 10%;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -275,13 +287,19 @@ article{
 /* Timeline
 -------------------------------------------------- */
 .timeline {
-    background: url("../img/line.gif") repeat-y scroll 109px 0 transparent;
-    margin-left: 50px;
+    margin-left: 0px;
+    padding-left: 10px;
 }
 .timeline-item {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     overflow: hidden;
     position: relative;
+}
+.timeline-item-title {
+  text-decoration: underline;
+}
+.timeline-item-title:hover {
+  text-decoration: none;
 }
 .timeline-head {
     background: none repeat scroll 0 0 #E19F41;
@@ -305,7 +323,7 @@ article{
     margin-left: 15px;
     padding: 5px 30px 10px;
     position: relative;
-    width: 70%;
+    width: 80%;
 	text-align: center;
 }
 .timeline-head-content h3{
@@ -315,7 +333,7 @@ article{
 }
 .timeline-item-date {
     float: left;
-    margin-top: 31px;
+    margin-top: 21px;
     width: 85px;
     font-size: 14px;
     font-weight: bold;
@@ -347,13 +365,12 @@ article{
     margin-left: 15px;
     padding: 5px 30px 10px;
     position: relative;
-    width: 70%;
-	color: #111111;
+    width: 80%;
+	  color: #111111;
 }
 .timeline-item-content h3 {
     cursor: pointer;
     font-weight: normal;
-    line-height: 30px;
     color: #010D23;
 }
 .timeline-arrow {
@@ -366,9 +383,9 @@ article{
     border-top: 1px solid #038BBB;
     display: block;
     height: 10px;
-    left: 141px;
+    left: 95px;
     position: absolute;
-    top: 37px;
+    top: 27px;
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
@@ -392,7 +409,7 @@ article{
     -ms-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
     width: 10px;
-    z-index: 10;
+    z-index: 1;
 }
 .timeline-item h4 {
     margin-bottom: 10px;
@@ -492,6 +509,7 @@ article{
   border-radius: 4px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  width: 80%;
 }
 .panel-group .panel-heading + .panel-collapse > .panel-body,
 .panel-group .panel-heading + .panel-collapse > .list-group {
@@ -530,6 +548,7 @@ article{
   background-color: #038BBB;
   border-color: #038BBB;
   font-weight: bold;
+  font-size: 20px;
 }
 .panel-primary > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: #038BBB;
@@ -618,23 +637,33 @@ article{
   margin-left: auto;
   padding: 15px;
 }
+
+.container-fluid {
+
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+
+}
+
 @media(max-width: 767px) {
 	.navbar{
 		min-height: 68px;
-	}
-    .navbar-nav {
-        float: none;
-        text-align: left;
-    }     
-    .navbar-nav > li {
+  }
+  .navbar-nav {
+      float: none;
+      text-align: left;
+  }     
+  .navbar-nav > li {
 
-        display: block;
-        float: none;
-        z-index: 10;
-    }
-    .navbar-nav > li > a{
-        line-height: 16px;
-    }
+      display: block;
+      float: none;
+      z-index: 10;
+  }
+  .navbar-nav > li > a{
+      line-height: 16px;
+  }
 	.navbar-default .navbar-nav > li > a:focus,
 	.navbar-nav > li > a.active {
 		background-color: #010D23;
@@ -647,12 +676,52 @@ article{
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
 		color: #010D23;
 		background-color: #038BBB;
-	}
+  }
+  .timeline-item-date { 
+    display: none; 
+  }
+  .panel-primary {
+    margin-left: 15px;
+  }
+  .timeline-arrow { display: none; }
+  .timeline-item-content {
+    width: 95%;
+  }
+  .timeline-head-content {
+    width: 95%;
+  }
+  .panel {
+    width: 95%
+  }
 }
 
-@media (max-device-width: 480px) and (orientation: landscape) {
-  .navbar-fixed-top .navbar-collapse,
-  .navbar-fixed-bottom .navbar-collapse {
-    max-height: 999px;
+@media (max-width: 550px) {
+  .timeline-arrow { display: none; }
+  .panel-primary {
+    margin-left: 15px;
+  }
+  .timeline-item-date {
+    width: 20px;
+  }
+  .timeline-item-date { display: none; }
+  .timeline-item-content {
+    width: 95%;
+  }
+  .timeline-head-content {
+    width: 95%;
+  }
+}
+
+@media (max-width: 480px) and (min-width: 360px) {
+  .ui-tabs-hide { display: none; }
+  .timeline-item-date { display: none; }
+  .timeline-item-content {
+    width: 95%;
+  }
+  .timeline-head-content {
+    width: 95%;
+  }
+  .panel {
+    width: 95%
   }
 }

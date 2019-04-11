@@ -26,54 +26,28 @@
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
 <body>
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#HVNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-    </div>
-    <div class="collapse navbar-collapse" id="HVNavbar">
-      <ul class="nav navbar-nav">
-         <li><a href="index.html#home" class="colapse-menu1">Overview</a></li>
-	        <li><a href="career.html#home" class="colapse-menu1">Career</a></li>
-	        <li><a href="education.html#home" class="hv-night-blue">Education</a></li>
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="portfolio">Portfolio <span class="caret"></span></a>
-              <ul class="dropdown-menu" aria-labelledby="portfolio">
-                <li><a href="portfolio.html#Gamification">Gamification</a></li>
-                <li><a href="portfolio.html#Educational Games">Educational Games</a></li>
-                <li><a href="portfolio.html#Virtual Learning Environments">Virtual Learning Environments</a></li>
-				<li><a href="portfolio.html#Virtual Reality">Virtual Reality</a></li>
-                <li><a href="portfolio.html#Teaching">Teaching</a></li>
-                <li><a href="portfolio.html#E-learing">E-learing</a></li>
-				<li><a href="portfolio.html#Web Development">Web Development</a></li>
-                <li><a href="portfolio.html#Interactive Wall Projections">Interactive Wall Projections</a></li>
-                <li><a href="portfolio.html#Multi-touch Interactive Displays">Multi-touch Interactive Displays</a></li>
-              </ul>
-            </li>
-	        <li><a href="contact.html" class="colapse-menu1">Contact</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-<div id="page-wrapper">
-	
-	<section id="heading-bar">
-		<div class="container">
-			<div class="col-md-12">
-			<!-- Personal Info -->
-				<div class="info">
-					<h1>Dr. Hendranus Vermeulen</h1>
-					<h2>Education</h2>
-				</div>
-			<!-- Personal Info end -->     
+<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#HVNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>                        
+				</button>
+				<a href="index.html" class="navbar-brand hv-white">Dr. Hendranus Vermeulen</a>
+			</div>
+			<div class="collapse navbar-collapse" id="HVNavbar">
+				<ul class="nav navbar-nav">
+						<li><a href="career.html" class="colapse-menu1">Career</a></li>
+						<li><a href="education.html" class="hv-night-blue">Education</a></li>
+						<li><a href="portfolio.html" class="colapse-menu1">Portfolio</a></li>
+						<li><a href="contact.html" class="colapse-menu1">Contact</a></li>
+				</ul>
 			</div>
 		</div>
-	</section>
+	</nav>
+
+<div id="page-wrapper">
 		
 	<!-- Section : Resume -->
 				<section id="resume" class="section">
@@ -83,24 +57,17 @@
 						<!-- Education Timeline -->
 							<div class="timeline">
 								<!-- Item Head -->
-									<div class="timeline-item">
-										<div class="timeline-head">
-											<span class="fa fa-graduation-cap"><i></i></span>
-										</div>
-										<div class="timeline-arrow-heading"><i></i></div>
-										<div class="timeline-head-content">
-												<h3>QUALIFICATION HISTORY</h3>
-										</div>
+								<div class="timeline-item">
+									<div class="timeline-item-date">
 									</div>
-								<!-- /Item Head end -->
+									<div class="timeline-head-content">
+											<h3>QUALIFICATION HISTORY</h3>
+									</div>
+								</div>
+							<!-- /Item Head end -->
 								<!-- first item of timeline -->
 								<div id="phd" class="timeline-item">
 									<div class="timeline-item-date">2003 – 2009</div><!-- date -->
-										<!-- timeline item trigger -->
-										<div>
-												<span class="timeline-item-trigger" data-toggle="collapse" data-target="#edu1"><i class="chevron fa fa-fw"></i></span>
-											</div>
-										<!-- /end of timeline item trigger -->
 										<div class="timeline-arrow"><i></i></div>
 										<!-- timeline main content -->
 										<div class="timeline-item-content">
@@ -139,9 +106,6 @@
 								<!-- Timeline item -->
 								<div id="msc" class="timeline-item">
 									<div class="timeline-item-date">2000 - 2001</div><!-- date -->
-										<div>
-												<span class="timeline-item-trigger collapsed" data-toggle="collapse" data-target="#edu2"><i class="chevron fa fa-fw"></i></span>
-											</div>
 										<div class="timeline-arrow"><i></i></div>
 										<!-- Timeline main content -->
 										<div class="timeline-item-content">
@@ -175,9 +139,6 @@
 								<!-- Timeline item -->
 								<div id="hde" class="timeline-item">
 									<div class="timeline-item-date">1998 – 1999</div><!-- date -->
-										<div>
-												<span class="timeline-item-trigger collapsed" data-toggle="collapse" data-target="#edu3"><i class="chevron fa fa-fw"></i></span>
-											</div>
 										<div class="timeline-arrow"><i></i></div>
 										<!-- Timeline main content -->
 										<div class="timeline-item-content">
@@ -202,9 +163,6 @@
 								<!-- Timeline item -->
 								<div id="hons" class="timeline-item">
 									<div class="timeline-item-date">1996 – 1996</div><!-- date -->
-										<div>
-												<span class="timeline-item-trigger collapsed" data-toggle="collapse" data-target="#edu4"><i class="chevron fa fa-fw"></i></span>
-											</div>
 										<div class="timeline-arrow"><i></i></div>
 										<!-- Timeline main content -->
 										<div class="timeline-item-content">
@@ -227,9 +185,6 @@
 								<!-- Timeline item -->
 								<div id="bsocsci" class="timeline-item">
 									<div class="timeline-item-date">1993 – 1995</div><!-- date -->
-										<div>
-												<span class="timeline-item-trigger collapsed" data-toggle="collapse" data-target="#edu5"><i class="chevron fa fa-fw"></i></span>
-											</div>
 										<div class="timeline-arrow"><i></i></div>
 										<!-- Timeline main content -->
 										<div class="timeline-item-content">
